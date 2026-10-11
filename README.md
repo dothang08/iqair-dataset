@@ -93,8 +93,10 @@ iqair-dataset/
 │   ├── da-nang/
 │   └── ho-chi-minh/
 │
-├── Phan_tich.ipynb              # Phân tích và trực quan hóa dữ liệu
-├── Predict_AQI.ipynb            # Xây dựng và đánh giá mô hình dự báo AQI
+├── notebooks/
+│   ├── 01_data_analysis.ipynb        # Phân tích và trực quan hóa dữ liệu
+│   ├── 02_aqi_prediction.ipynb       # Xây dựng và đánh giá mô hình dự báo AQI
+│
 ├── aqi_selected_cities.csv      # Dataset tổng hợp phục vụ phân tích
 ├── crawl_iqair.py               # Thu thập dữ liệu từ IQAir
 ├── merge_csv.py                 # Gộp các file dữ liệu
@@ -266,12 +268,7 @@ Kết quả dự báo từ các mô hình Machine Learning không nên được 
 ---
 
 ## 👨‍💻 Tác giả
-
 **Đỗ Đức Thắng**
-
-- GitHub: [dothang08](https://github.com/dothang08)
-- Project: [iqair-dataset](https://github.com/dothang08/iqair-dataset)
-
 ---
 
 ## 🤝 Đóng góp
